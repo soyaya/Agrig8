@@ -28,6 +28,10 @@ This folder is the user-facing interface for buyers, sellers, and mediators inte
 - Stellar wallet integration via Freighter
 - Privacy-first analytics instrumentation
 
+## Accessibility
+
+Wallet dialogs must trap keyboard focus, restore focus to the opening control when closed, and use a descriptive dialog label. Contributors should verify these behaviors with keyboard and accessibility tests for every wallet-dialog change.
+
 ## Getting Started
 
 ### Prerequisites
